@@ -223,8 +223,7 @@
 				<td><p>*Jika ingin memakai Asuransi kesehatan</p></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td></td>
+				
 				<td><input type="submit" name="proses" class="tombol_login" value="Daftar"></td>
 			</tr>
 		</table>
