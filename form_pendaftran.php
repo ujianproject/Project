@@ -31,7 +31,7 @@
 			color: #fff;
 			width: 100px;
 			display: block;
-			padding: 15px;
+			padding: 19px;
 			font-size: 17px;
 			font-family: Helvetica;
 		}
@@ -176,7 +176,9 @@
 			<li><a href="#">Info Dokter</a></li>
 			<li><a href="#">Daftar Pasien</a></li>
 			<li><a href="#">Contact</a></li>
+			<li><a href="#">Pendaftaran</a></li>
 			<li><a href="#">Logout</a></li>
+
 		</ul>
 	</div>
 	<center>
