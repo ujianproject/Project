@@ -173,11 +173,10 @@
 	<div class = "nav">
 		<ul>
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Tutorial</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">NewsLetter</a></li>
+			<li><a href="#">Info Dokter</a></li>
+			<li><a href="#">Daftar Pasien</a></li>
 			<li><a href="#">Contact</a></li>
+			<li><a href="#">Logout</a></li>
 		</ul>
 	</div>
 	<center>
