@@ -184,9 +184,8 @@
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Info Dokter</a></li>
 			<li><a href="halaman_data.php">Daftar Pasien</a></li>
-			<li><a href="#">Contact</a></li>
 			<li><a href="form_pendaftran.php">Pendaftaran</a></li>
-			<li><a href="#">Logout</a></li>
+			<li><a href="destroy.php">Logout</a></li>
 
 		</ul>
 	</div>
@@ -223,7 +222,7 @@
 						<td><?php echo $m['pasien_alamat']; ?></td>
 						<td><?php echo $m['nohp_pasien']; ?></td>
 						<td><?php echo $m['pasien_bpjs']; ?></td>
-						<td><a href="halaman_hapus.php?id=<?php print $m['no']?>">Selesai</a></td>
+						<td><a href="halaman_hapus.php?no=<?php print $m['no']?>">HAPUS</a></td>
 					</tr>
 				<?php } ?>
 		</table>
