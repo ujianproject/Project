@@ -73,7 +73,7 @@
 		</div>
 <center>
 		<div id="inputan">
-			<form action="loginproses.php" method="POST">
+			<form action="proses_login.php" method="POST">
 				<div>
 					<input type="text" name="username" placeholder="Username" class="lg"required>
 				</div>
@@ -82,7 +82,7 @@
 				</div>
 			<center>
 				<div style="margin-top : 10px;">
-					<input type="submit" value="LOGIN">
+					<input type="submit" value="LOGIN" name = "proses">
 				</div>
 				</center>
 			</form>
