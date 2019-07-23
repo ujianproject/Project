@@ -1,86 +1,93 @@
-<!DOCTYPE html>
-<html >
+<html>
 <head>
-	<title>kelompok 6</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+	.rapi
+	{
+		width : 40%;
+		margin : 2 auto;
+		text-align : center;
+	}
+	body
+	{
+		color : black;
+	}
+	fieldset
+	{
+		background-image : linear-gradient(#7fff00,#ffffff);
+	}
+	table
+	{
+		margin : 0 auto;
+	}
+	input
+	{
+		padding : 4px;
+		border : 2px solid lightblue;
+		background-color : aliceblue;
+	}
+	input[type=submit]
+	{
+		font-size : 16px;
+		background-image : linear-gradient(#ccffff);
+		padding : 6px 16px;
+	}
+	input:focus
+	{
+		background-color : black;
+	}
+	select
+	{
+		padding : 4px;
+		border : 2px solid lightblue;
+		box-sizing: border-box;
+		background-color: aliceblue;
+	}
+	textarea
+	{
+		border : 2px solid lightblue;
+		box-sizing: border-box;
+		color : gray;
+		background-color: aliceblue;
+	}
 
-	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="css/util.css">
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-<!--===============================================================================================-->
+	.tulisan{
+		font-family: Helvetica;
+		font-color: #0000;
+	}
+	</style>
 </head>
 <body>
+	<fieldset class="rapi">
+	<title>Pendaftaran</title>
+</head>
+
+<body>
 	
-	
-	<div class="container-login100" style="background-image: url('images/1.jpg');">
-		<div class="wrap-login100 p-l-55 p-r-55 p-t-80 p-b-30">
-			<form class="login100-form validate-form">
-				<span class="login100-form-title p-b-37">
-					Sign In
-				</span>
+	<h1 class="tulisan">Login Administator</h1>
+	<form action="andreriskia_Registrasi2.php" method="POST">
+		<table border="0" style="center">
 
-				<div class="wrap-input100 validate-input m-b-20" data-validate="Enter username or email">
-					<input class="input100" type="text" name="username" placeholder="username or email">
-					<span class="focus-input100"></span>
-				</div>
+			<tr>
+				<td class="tulisan">Username</td>
+				<td>:</td>
+				<td><input type="text" name="depan"></td>
+			</tr>
 
-				<div class="wrap-input100 validate-input m-b-25" data-validate = "Enter password">
-					<input class="input100" type="password" name="pass" placeholder="password">
-					<span class="focus-input100"></span>
-				</div>
-
-				<div class="container-login100-form-btn">
-					<button class="login100-form-btn">
-						 Login
-					</button>
-				</div>
-<br>
-				</br>
-				
-			</form>
+			<tr>
+				<td class="tulisan">Password</td>
+				<td>:</td>
+				<td><input type="password" name="belakang"></td>
+			</tr>
 
 			
-		</div>
-	</div>
-	
-	
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td><input type="submit" name="submit" value="Login"/></td>
+							
+						</tr>
 
-	<div id="dropDownSelect1"></div>
-	
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/daterangepicker/moment.min.js"></script>
-	<script src="vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
-
-</body>
-</html>
+					</table>
+				</form>
+			</body>
+			</html> 
