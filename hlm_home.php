@@ -242,7 +242,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong></strong></p><br>
       <a href="#demo" data-toggle="collapse">
-        <img src="images/home1.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="images/hom1.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo" class="collapse">
         <p>Guitarist and Lead Vocalist</p>
@@ -253,7 +253,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong></strong></p><br>
       <a href="#demo2" data-toggle="collapse">
-        <img src="images/home2.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="images/hom2.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo2" class="collapse">
         <p>Drummer</p>
@@ -264,7 +264,7 @@
     <div class="col-sm-4">
       <p class="text-center"><strong></strong></p><br>
       <a href="#demo3" data-toggle="collapse">
-        <img src="images/home3.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        <img src="images/hom3.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
       <div id="demo3" class="collapse">
         <p>Bass player</p>
