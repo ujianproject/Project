@@ -289,7 +289,7 @@
     <div class="row text-center">
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/john-4.jpg" alt="dokter" width="400" height="300">
+          <img src="images/john-2.jpeg" alt="dokter" width="400" height="300">
           <p><strong>Dokter hendru</strong></p>
           <p>Rabu 25 Juli 2019</p>
           <p>16:00</p>
@@ -299,8 +299,8 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/john-4.jpg" alt="New York" width="400" height="50">
-          <p><strong>Dokter Alpin</strong></p>
+          <img src="images/dokter2.jpg" alt="New York" width="400" height="50">
+          <p><strong>Dokter Rahmi</strong></p>
           <p>Rabu 25 Juli 2019</p>
           <p>16:00</p>
           <form method="post" action="form_pendaftran1.php">
@@ -309,8 +309,8 @@
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
-          <img src="images/john-4.jpg" alt="San Francisco" width="400" height="300">
-          <p><strong>Dokter Raihan</strong></p>
+          <img src="images/dokter1.jpg" alt="San Francisco" width="400" height="300">
+          <p><strong>Dokter Muhammad</strong></p>
           <p>Rabu 25 Juli 2019</p>
           <p>16:00</p>
           <form method="post" action="form_pendaftran1.php">
