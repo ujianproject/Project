@@ -181,11 +181,10 @@
 <body>
 	<div class = "nav">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Info Dokter</a></li>
 			<li><a href="halaman_data.php">Daftar Pasien</a></li>
 			<li><a href="form_pendaftran.php">Pendaftaran</a></li>
 			<li><a href="destroy.php">Logout</a></li>
+
 
 		</ul>
 	</div>
