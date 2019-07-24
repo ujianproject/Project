@@ -401,7 +401,7 @@
       <b>Berdiri atas izin Allah azza wajalla dikarenakan kesehatan merupakan rahmat dari Allah Azza Wajalla </h4><br><b>
       <h3>" اللَّهُمَّ اغْفِرْ لِي ، وَارْحَمْنِي ، وَاهْدِني ، وَعَافِني ، وَارْزُقْنِي "</h3>
       <form method="post" action="hlm_home.php">
-      <br><button class="btn btn-default btn-lg" type="submit">Get in Touch</button>
+      <br><button class="btn btn-default btn-lg" type="submit">Info selengkapnya</button>
      </form>
     </div>
     <div class="col-sm-4">
@@ -417,6 +417,8 @@
     </div>
     <div class="col-sm-8">
       <h2>Tujuan</h2><br>
+      <h4>Menjadi klinik yang mampu memberikan pelayanan terbaik dengan di dukung sumber daya manusia yg 
+        <br>profesional Mengupayakan peningkatan sarana dan prasarana sesuai kebutuhan masyarakat</h4>
       
     </div>
   </div>
@@ -458,13 +460,13 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>
+        <h4>"Sangat membantu dalam proses pendaftaran sehingga tau dokter yang hadir"<br><span>Fauzan, pasien</span></h4>
       </div>
       <div class="item">
-        <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>
+        <h4>"apresiasi yang sangat mendukung terhadap perkembangan yang dimulai dari yang kecil"<br><span>Ahmad, ketua RW 04</span></h4>
       </div>
       <div class="item">
-        <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>
+        <h4>"dengan adanya sistem ini jadi tau antrian atau slot untuk berobat sudah habis"<br><span>Meri, pengunjung website</span></h4>
       </div>
     </div>
 
