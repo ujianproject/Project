@@ -173,10 +173,8 @@
 	<div class = "nav">
 		<ul>
 			<li><a href="klinik.php">Home</a></li>
-<<<<<<< HEAD
-=======
      	 	<li><a href="hlm_home.php">Info Dokter</a></li>
->>>>>>> 0c9c164732cdc6e167e5d4063254a3773163f6b3
+
       		<li><a href="halaman_data1.php">Daftar Pasien</a></li>
       		<li><a href="form_pendaftran1.php">Pendaftaran</a></li>
 
