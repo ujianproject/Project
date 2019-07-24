@@ -400,8 +400,9 @@
       <h4>Klinik Mekar Sari merupakan suatu pelayanan kesehatan yang membantu masyarakat dalm pengobatan<br>
       <b>Berdiri atas izin Allah azza wajalla dikarenakan kesehatan merupakan rahmat dari Allah Azza Wajalla </h4><br><b>
       <h3>" اللَّهُمَّ اغْفِرْ لِي ، وَارْحَمْنِي ، وَاهْدِني ، وَعَافِني ، وَارْزُقْنِي "</h3>
-     
-      <br><button class="btn btn-default btn-lg" ac >Get in Touch</button>
+      <form method="post" action="hlm_home.php">
+      <br><button class="btn btn-default btn-lg" type="submit">Get in Touch</button>
+     </form>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-home logo"></span>]
