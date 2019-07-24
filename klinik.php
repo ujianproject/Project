@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
   <title>Pendaftaran Klinik Mekar sari</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -239,7 +238,7 @@
       <b>Berdiri atas izin Allah azza wajalla dikarenakan kesehatan merupakan rahmat dari Allah Azza Wajalla </h4><br><b>
       <h3>" اللَّهُمَّ اغْفِرْ لِي ، وَارْحَمْنِي ، وَاهْدِني ، وَعَافِني ، وَارْزُقْنِي "</h3>
      
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      <br><button class="btn btn-default btn-lg" ac >Get in Touch</button>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-home logo"></span>
