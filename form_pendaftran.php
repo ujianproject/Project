@@ -172,17 +172,15 @@
 <body>
 	<div class = "nav">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Info Dokter</a></li>
 			<li><a href="halaman_data.php">Daftar Pasien</a></li>
 			<li><a href="form_pendaftran.php">Pendaftaran</a></li>
-			<li><a href="#">Logout</a></li>
+			<li><a href="destroy.php">Logout</a></li>
 
 		</ul>
 	</div>
 	<center>
 	<div id="judul">
-		<h1>Pendaftaran Klinik Ntah Apa Apa</h1>
+		<h1>Pendaftaran Klinik Mekar Sari</h1>
 	</div>
 	<div class="kotak_login">
 	<form action="hlm_prsdaftar.php" method="POST">

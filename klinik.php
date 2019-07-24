@@ -31,10 +31,11 @@
     margin-bottom: 30px;
   }  
   .jumbotron {
-    background-color: #556B2F;
+    background: linear-gradient(#006400, #7FFF00, #008B8B);
     color: #fff;
     padding: 300px 450px;
     font-family: Montserrat, sans-serif;
+
   }
   .container-fluid {
     padding: 60px 50px;
@@ -106,6 +107,180 @@
   .panel-footer {
     background-color: white !important;
   }
+  $main: #1ab188;
+
+    html{
+      overflow-y:scroll; 
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      background: #ccc;
+    }
+
+    .nav ul{
+      list-style: none;
+      background: #006400;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    .nav li {
+      display: inline-block;
+    }
+
+    .nav a{
+      text-decoration:none;
+      color: #fff;
+      width: 100px;
+      display: block;
+      padding: 19px;
+      font-size: 17px;
+      font-family: Helvetica;
+    }
+
+    .nav a:hover{
+      background: #000;
+      transition: 0.4s;
+    }
+
+    h1{ 
+      text-align: center;
+      /*ketebalan font*/
+      font-weight: 450;
+      font-family: Helvetica;
+      font-color : ;
+    }
+
+    .tulisan_login{
+      text-align: center;
+      /*membuat semua huruf menjadi kapital*/
+      text-transform: uppercase;
+    }
+
+    .kotak_login{
+      width: 350px;
+      background: #E6E6FA;
+      /*meletakkan form ke tengah*/
+      margin: 80px auto;
+      padding: 30px 20px;
+      border-radius: 10px;
+    }
+
+    label{
+      font-size: 11pt;
+    }
+
+    .form_login{
+      /*membuat lebar form penuh*/
+      box-sizing : border-box;
+      width: 100%;
+      padding: 10px;
+      font-size: 11pt;
+      margin-bottom: 20px;
+      border-radius: ;
+    }
+
+    .tombol_login{
+      background: #46de4b;
+      color: white;
+      font-size: 11pt;
+      width: 100%;
+      border: none;
+      border-radius: 40px;
+      padding: 10px 20px;
+    }
+
+    .link{
+      color: #46de4b;
+      text-decoration: none;
+      font-size: 10pt;
+    }
+    .judul{
+      font-family: ;
+      font-size:;
+      background-color: #228B22;
+      border-radius: 20px; 
+      font-color: #228B22;
+    }
+    .kembali{
+      background: #46de4b;
+    }
+
+    #utama{
+      width: 350px;
+      margin: 0 auto;
+      margin-top: 5%;
+      background-color: #000; 
+    }
+    #judul{
+      padding: 15px;
+      text-align: center;
+      color: #fff;
+      font-size: 20px;
+      background-color: #336666;
+      
+      border-bottom: 3px solid #336666;
+    }
+    #inputan{
+      background-color: #ccc;
+      padding: 20px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    #ulala{
+      margin: 0 auto;
+      background-color: #ccc;
+      border-radius: 10px;
+      
+      font-size: 17px;
+      width: 40%;
+      margin-top: 50px; 
+    }
+    input{
+      padding: 10px;
+      border: 0;
+    }l
+    .lg{l
+      width: 250px;l
+    }l
+    .btn{l
+      background-color: #339966;
+      border-radius: 10px;
+      color: #fff;
+    }
+    .btn:hover{
+      background-color: #336666;
+      cursor: pointer;
+    }
+    #gambar{
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .hias{
+      border-color: : 4px;
+    }
+
+    .req {
+        margin:2px;
+        color: $main;
+      }
+
+      .field-wrap {
+        position:relative;
+        margin-bottom:40px;
+    }
+    .tabel{
+      border-radius: 10px;
+      font-family: arial;
+      font-color: #00008B;
+    }
+
+    .space{
+      margin-bottom: : 100px;
+    }
   .panel-footer h3 {
     font-size: 32px;
   }
@@ -192,32 +367,20 @@
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-     
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-      <li><a href="#about">About</a></li>
-			<li><a href="#services">Tutorial</a></li>
-			<li><a href="#portfolio">About</a></li>
-			<li><a href="#pricing">Blog</a></li>   
-			<li><a href="#myCarousel">NewsLetter</a></li>
-			<li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
+<div class = "nav">
+    <ul>
+      <li><a href="klinik.php">Home</a></li>
+      <li><a href="#">Info Dokter</a></li>
+      <li><a href="halaman_data1.php">Daftar Pasien</a></li>
+      <li><a href="form_pendaftran1.php">Pendaftaran</a></li>
+      
+
+    </ul>
   </div>
-</nav>
 
 <div class="jumbotron text-center">
   <h1> Selamat Datang</h1> 
-  <h2> di Klinik Mekar Sari </h2>
+  <h2 style="font-size: 45px"> di Klinik Mekar Sari </h2>
   
   <form>
     <div class="input-group">
@@ -241,8 +404,7 @@
       <br><button class="btn btn-default btn-lg" ac >Get in Touch</button>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-home logo"></span>
-     
+      <span class="glyphicon glyphicon-home logo"></span>]
     </div>
   </div>
 </div>
@@ -260,19 +422,11 @@
 </div>
 
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>Blog</h2>
-  <h4>Yang kami tawarkan </h4>
-  <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      
-  </div>
-</div>
+
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Tutorial</h2><br>
+  
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -327,10 +481,7 @@
 
 <!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid">
-  <div class="text-center">
-    <h2>Harga</h2>
-    
-  </div>
+ 
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
         

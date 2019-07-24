@@ -167,64 +167,66 @@
   			position:relative;
   			margin-bottom:40px;
 		}
-		.tabel{
-			border-radius: 10px;
-			font-family: arial;
-			font-color: #00008B;
-		}
-
-		.space{
-			margin-bottom: : 100px;
-		}
 	</style>
 </head>
 <body>
 	<div class = "nav">
 		<ul>
-			<li><a href="halaman_data.php">Daftar Pasien</a></li>
-			<li><a href="form_pendaftran.php">Pendaftaran</a></li>
-			<li><a href="destroy.php">Logout</a></li>
-
+			<li><a href="klinik.php">Home</a></li>
+     	 	<li><a href="#">Info Dokter</a></li>
+      		<li><a href="halaman_data1.php">Daftar Pasien</a></li>
+      		<li><a href="form_pendaftran1.php">Pendaftaran</a></li>
 
 		</ul>
 	</div>
-
-	<?php
-	include("koneksi.php")
-	?>
 	<center>
-		<table width="600" border="6" cellpadding="13" cellspacing="0" class="tabel">
-			<br><br><br>
-			<h1 class="space">Berikut adalah Daftar Pasien yang Telah Mendaftar</h1>
+	<div id="judul">
+		<h1>Pendaftaran Klinik Mekar Sari</h1>
+	</div>
+	<div class="kotak_login">
+	<form action="hlm_prsdaftar.php" method="POST">
+		<table>
 			<tr>
-				<th>No Antrian</th>
-				<th>Nama Pasien</th>
-				<th>Umur Pasien</th>
-				<th>Alamat Pasien</th>
-				<th>No Hp Pasien</th>
-				<th>Gejala</th>				
-				<th>Asuransi Kesehatan</th>
-				<th>DONE</th>
+				<td>Nama</td>
+				<td>:</td>
+				<td><input type="text" name="nama"></td>
 			</tr>
-
-			<?php
-				$i = 0;
-				$query = mysqli_query($db, "SELECT pasien_nama, gejala_pasien, pasien_umur, pasien_alamat, nohp_pasien, pasien_bpjs FROM daftar_klinik");
-				while ($m = mysqli_fetch_array($query)) {
-					$i++;
-					?>
-					<tr>
-						<td align="center"><?php echo $i; ?></td>
-						<td><?php echo $m['pasien_nama']; ?></td>
-						<td><?php echo $m['gejala_pasien']; ?></td>
-						<td><?php echo $m['pasien_umur']; ?></td>
-						<td><?php echo $m['pasien_alamat']; ?></td>
-						<td><?php echo $m['nohp_pasien']; ?></td>
-						<td><?php echo $m['pasien_bpjs']; ?></td>
-						<td><a href="halaman_hapus.php?no=<?php print $m['no']?>">HAPUS</a></td>
-					</tr>
-				<?php } ?>
+			<tr>
+				<td>Umur</td>
+				<td>:</td>
+				<td><input type="text" name="umur"></td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td><input type="text" name="alamat"></td>
+			</tr>
+			<tr>
+				<td>No Hp</td>
+				<td>:</td>
+				<td><input type="text" name="nohp"></td>
+			</tr>
+			<tr>
+				<td>Gejala yang dialami</td>
+				<td>:</td>
+				<td><textarea name="gejala"></textarea></td>
+			</tr>
+			<tr>
+				<td>No Asuransi Kesehatan</td>
+				<td>:</td>
+				<td><input type="text" name="bpjs"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><p>*Jika ingin memakai Asuransi kesehatan</p></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="proses" class="tombol_login" value="Daftar"></td>
+			</tr>
 		</table>
+	</form>
+	</div>
 	</center>
 </body>
 </html>

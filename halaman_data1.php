@@ -181,11 +181,10 @@
 <body>
 	<div class = "nav">
 		<ul>
-			<li><a href="halaman_data.php">Daftar Pasien</a></li>
-			<li><a href="form_pendaftran.php">Pendaftaran</a></li>
-			<li><a href="destroy.php">Logout</a></li>
-
-
+			<li><a href="klinik.php">Home</a></li>
+      		<li><a href="#">Info Dokter</a></li>
+      		<li><a href="halaman_data1.php">Daftar Pasien</a></li>
+      		<li><a href="form_pendaftran1.php">Pendaftaran</a></li>
 		</ul>
 	</div>
 
@@ -198,30 +197,21 @@
 			<h1 class="space">Berikut adalah Daftar Pasien yang Telah Mendaftar</h1>
 			<tr>
 				<th>No Antrian</th>
-				<th>Nama Pasien</th>
-				<th>Umur Pasien</th>
-				<th>Alamat Pasien</th>
-				<th>No Hp Pasien</th>
-				<th>Gejala</th>				
+				<th>Nama Pasien</th>				
 				<th>Asuransi Kesehatan</th>
-				<th>DONE</th>
+				
 			</tr>
 
 			<?php
 				$i = 0;
-				$query = mysqli_query($db, "SELECT pasien_nama, gejala_pasien, pasien_umur, pasien_alamat, nohp_pasien, pasien_bpjs FROM daftar_klinik");
+				$query = mysqli_query($db, "SELECT pasien_nama, pasien_bpjs FROM daftar_klinik");
 				while ($m = mysqli_fetch_array($query)) {
 					$i++;
 					?>
 					<tr>
 						<td align="center"><?php echo $i; ?></td>
 						<td><?php echo $m['pasien_nama']; ?></td>
-						<td><?php echo $m['gejala_pasien']; ?></td>
-						<td><?php echo $m['pasien_umur']; ?></td>
-						<td><?php echo $m['pasien_alamat']; ?></td>
-						<td><?php echo $m['nohp_pasien']; ?></td>
-						<td><?php echo $m['pasien_bpjs']; ?></td>
-						<td><a href="halaman_hapus.php?no=<?php print $m['no']?>">HAPUS</a></td>
+						<td><?php echo $m['pasien_bpjs']; ?></td>		
 					</tr>
 				<?php } ?>
 		</table>
