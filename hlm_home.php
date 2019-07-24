@@ -13,11 +13,19 @@
   <style>
   body {
     font: 400 15px/1.8 Lato, sans-serif;
-    color: #777;
+    color: #818181;;
+  
+  }
+  h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
   }
   h3, h4 {
-    margin: 10px 0 30px 0;
-    letter-spacing: 10px;      
+    margin: 6px 0 30px 0;
+    letter-spacing: 5px;      
     font-size: 20px;
     color: #111;
   }
@@ -49,7 +57,7 @@
     }
   }
   .bg-1 {
-    background: #2d2d30;
+    background:  #556B2F;
     color: #bdbdbd;
   }
   .bg-1 h3 {color: #fff;}
@@ -104,7 +112,7 @@
   .navbar {
     font-family: Montserrat, sans-serif;
     margin-bottom: 0;
-    background-color: #2d2d30;
+    background-color:  #556B2F;
     border: 0;
     font-size: 11px !important;
     letter-spacing: 4px;
@@ -118,7 +126,7 @@
   }
   .navbar-nav li.active a {
     color: #fff !important;
-    background-color: #29292c !important;
+    background-color:  #556B2F; !important;
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
@@ -134,7 +142,7 @@
     background-color: red !important;
   }
   footer {
-    background-color: #2d2d30;
+    background-color:  #556B2F;
     color: #f5f5f5;
     padding: 32px;
   }
@@ -142,7 +150,7 @@
     color: #f5f5f5;
   }
   footer a:hover {
-    color: #777;
+    color:  #556B2F;
     text-decoration: none;
   }  
   .form-control {
@@ -163,24 +171,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#myPage">KLINIK MEKAR SARI</a>
+      <a class="navbar-brand" href="klinik.php">KLINIK MEKAR SARI</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <!-- <li><a href="#myPage">HOME</a></li>
-        <li><a href="#band">BAND</a></li>
-        <li><a href="#tour">TOUR</a></li>
-        <li><a href="#contact">CONTACT</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Merchandise</a></li>
-            <li><a href="#">Extras</a></li>
-            <li><a href="#">Media</a></li> 
-          </ul>
-        </li>
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li> -->
       </ul>
     </div>
   </div>
@@ -199,24 +193,24 @@
       <div class="item active">
         <img src="images/1.jpg" alt="New York" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>The atmosphere in New York is lorem ipsum.</p>
+          <h3>Tampilan depan </h3>
+          <p>Klinik MEKAR SARI</p>
         </div>      
       </div>
 
       <div class="item">
         <img src="images/home1.jpg" alt="Chicago" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago - A night we won't forget.</p>
+          <h3>Tampilan Ruang Tunggu</h3>
+          <p>Klinik MEKAR SARI</p>
         </div>      
       </div>
     
       <div class="item">
         <img src="images/home2.jpg" alt="Los Angeles" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>LA</h3>
-          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+          <h3>Tampilan Ruangan Periksa</h3>
+          <p>Klinik MEKAR SARI</p>
         </div>      
       </div>
     </div>
@@ -234,9 +228,11 @@
 
 <!-- Container (The Band Section) -->
 <div id="band" class="container text-center">
-  <h3>THE BAND</h3>
-  <p><em>We love music!</em></p>
-  <p>We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  <h2>KLINIK MEKAR SARI</h2>
+  <h3>Komitmen Kami Datang Dari Hati.
+      <br>Kami Lahir Dari Sebuah Ketulusan.</h3>
+  <p><em>Klinik Mekar Sari lahir dari sebuah ketulusan untuk menghadirkan layanan kesehatan yang jujur, adil dan professional.</em></p>
+  <p>Klinik ini didirikan dengan maksud memberikan layanan kesehatan yang memadai ; lengkap sarana dan prasarananya dan bekerja secara jujur ; adil dan profesional dengan dukungan sumberdaya manusia yang berkualitas sehingga dapat memberikan layanan kesehatan yang memuaskan bagi pasien dan masyarakat di sekitar klinik dan masyarakat umum yang membutuhkan jasa kesehatan.</p>
   <br>
   <div class="row">
     <div class="col-sm-4">
@@ -244,33 +240,21 @@
       <a href="#demo" data-toggle="collapse">
         <img src="images/hom1.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
-      <div id="demo" class="collapse">
-        <p>Guitarist and Lead Vocalist</p>
-        <p>Loves long walks on the beach</p>
-        <p>Member since 1988</p>
-      </div>
+    
     </div>
     <div class="col-sm-4">
       <p class="text-center"><strong></strong></p><br>
       <a href="#demo2" data-toggle="collapse">
         <img src="images/hom2.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
-      <div id="demo2" class="collapse">
-        <p>Drummer</p>
-        <p>Loves drummin'</p>
-        <p>Member since 1988</p>
-      </div>
+      
     </div>
     <div class="col-sm-4">
       <p class="text-center"><strong></strong></p><br>
       <a href="#demo3" data-toggle="collapse">
         <img src="images/hom3.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
       </a>
-      <div id="demo3" class="collapse">
-        <p>Bass player</p>
-        <p>Loves math</p>
-        <p>Member since 2005</p>
-      </div>
+      
     </div>
   </div>
 </div>
@@ -366,43 +350,22 @@
       
     </div>
     <div class="col-md-8">
-      <!-- <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div> -->
-      <!-- <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea> -->
-      <!-- <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Send</button> -->
         </div>
       </div>
     </div>
   </div>
   <br>
   <h3 class="text-center">Map Lokasi Klinik</h3>  
-  <!-- <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
-    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
-    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
-  </ul> -->
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
-      <!-- <h2>Mike Ross, Manager</h2>
-      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p> -->
+    
     </div>
     <div id="menu1" class="tab-pane fade">
-      <!-- <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p> -->
+      
     </div>
     <div id="menu2" class="tab-pane fade">
-      <!-- <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p> -->
+     
     </div>
   </div>
 </div>
