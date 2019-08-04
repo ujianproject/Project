@@ -324,30 +324,30 @@
       <div class="row text-center">
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/dokabdul.jpeg" alt="dokter" width="400" height="300">
-            <p><strong>Dokter Abdul</strong></p>
+            <img src="images/dokabdul.jpg" alt="dokter" width="400" height="300">
+            <p><strong>Dokter Bedul</strong></p>
             <p>Rabu 25 Juli 2019</p>
-            <p>16:00</p>
+            <p>16:00-22.00</p>
             <form method="post" action="form_pendaftran1.php">
               <button class="btn" data-toggle="modal" data-target="#myModal" type="submit">Pilih</button>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/dokter2.jpg" alt="New York" width="400" height="50">
-            <p><strong>Dokter Rahmi</strong></p>
-            <p>Rabu 25 Juli 2019</p>
-            <p>16:00</p>
+            <img src="images/dokfarah.jpg" alt="New York" width="400" height="50">
+            <p><strong>Dokter Parah</strong></p>
+            <p>Rabu 26 Juli 2019</p>
+            <p>09:00-16:00</p>
             <form method="post" action="form_pendaftran1.php">
               <button class="btn" data-toggle="modal" data-target="#myModal" type="submit">Pilih</button>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="thumbnail">
-            <img src="images/dokter1.jpg" alt="San Francisco" width="400" height="300">
-            <p><strong>Dokter Muhammad</strong></p>
+            <img src="images/dokazmi.jpg" alt="San Francisco" width="400" height="300">
+            <p><strong>Dokter Mimi</strong></p>
             <p>Rabu 25 Juli 2019</p>
-            <p>16:00</p>
+            <p>16:00-22.000</p>
             <form method="post" action="form_pendaftran1.php">
               <button class="btn" data-toggle="modal" data-target="#myModal" type="submit">Pilih</button>
           </div>
