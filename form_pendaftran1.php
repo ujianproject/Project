@@ -173,7 +173,6 @@
 	<div class = "nav">
 		<ul>
 			<li><a href="klinik.php">Home</a></li>
-     	 	<li><a href="hlm_home.php">Info Dokter</a></li>
 
       		<li><a href="halaman_data1.php">Daftar Pasien</a></li>
       		<li><a href="form_pendaftran1.php">Pendaftaran</a></li>
