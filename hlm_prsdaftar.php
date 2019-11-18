@@ -15,9 +15,9 @@ if (isset($_POST['proses'])) {
 	$query = mysqli_query($db, $sql);
 
 	if ($query) {
-		header('Location: hlm_prsdaftar?status=sukses');
+		header('Location: halaman_data.php?status=sukses');
 	}else{
-		header('Location: hlm_prsdaftar?status=gagal');
+		header('Location: halaman_data?status=gagal');
 	}
 }
 ?>

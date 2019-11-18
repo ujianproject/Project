@@ -172,9 +172,10 @@
 <body>
 	<div class = "nav">
 		<ul>
-			<li><a href="halaman_data.php">Daftar Pasien</a></li>
-			<li><a href="form_pendaftran.php">Pendaftaran</a></li>
-			<li><a href="destroy.php">Logout</a></li>
+			<li><a href="klinik.php">Home</a></li>
+
+      		<li><a href="halaman_data1.php">Daftar Pasien</a></li>
+      		<li><a href="form_pendaftran1.php">Pendaftaran</a></li>
 
 		</ul>
 	</div>
@@ -183,7 +184,7 @@
 		<h1>Pendaftaran Klinik Mekar Sari</h1>
 	</div>
 	<div class="kotak_login">
-	<form action="hlm_prsdaftar.php" method="POST">
+	<form action="hlm_prsdaftar1.php" method="POST">
 		<table>
 			<tr>
 				<td>Nama</td>

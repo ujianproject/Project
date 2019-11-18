@@ -167,65 +167,53 @@
   			position:relative;
   			margin-bottom:40px;
 		}
+		.tabel{
+			border-radius: 10px;
+			font-family: arial;
+			font-color: #00008B;
+		}
+
+		.space{
+			margin-bottom: : 100px;
+		}
 	</style>
 </head>
 <body>
 	<div class = "nav">
 		<ul>
-			<li><a href="halaman_data.php">Daftar Pasien</a></li>
-			<li><a href="form_pendaftran.php">Pendaftaran</a></li>
-			<li><a href="destroy.php">Logout</a></li>
-
+			<li><a href="klinik.php">Home</a></li>
+      		<li><a href="halaman_data1.php">Daftar Pasien</a></li>
+      		<li><a href="form_pendaftran1.php">Pendaftaran</a></li>
 		</ul>
 	</div>
+
+	<?php
+	include("koneksi.php")
+	?>
 	<center>
-	<div id="judul">
-		<h1>Pendaftaran Klinik Mekar Sari</h1>
-	</div>
-	<div class="kotak_login">
-	<form action="hlm_prsdaftar.php" method="POST">
-		<table>
+		<table width="600" border="6" cellpadding="13" cellspacing="0" class="tabel">
+			<br><br><br>
+			<h1 class="space">Berikut adalah Daftar Pasien yang Telah Mendaftar</h1>
 			<tr>
-				<td>Nama</td>
-				<td>:</td>
-				<td><input type="text" name="nama"></td>
+				<th>No Antrian</th>
+				<th>Nama Pasien</th>				
+				<th>Asuransi Kesehatan</th>
+				
 			</tr>
-			<tr>
-				<td>Umur</td>
-				<td>:</td>
-				<td><input type="text" name="umur"></td>
-			</tr>
-			<tr>
-				<td>Alamat</td>
-				<td>:</td>
-				<td><input type="text" name="alamat"></td>
-			</tr>
-			<tr>
-				<td>No Hp</td>
-				<td>:</td>
-				<td><input type="text" name="nohp"></td>
-			</tr>
-			<tr>
-				<td>Gejala yang dialami</td>
-				<td>:</td>
-				<td><textarea name="gejala"></textarea></td>
-			</tr>
-			<tr>
-				<td>No Asuransi Kesehatan</td>
-				<td>:</td>
-				<td><input type="text" name="bpjs"></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td><p>*Jika ingin memakai Asuransi kesehatan</p></td>
-			</tr>
-			<tr>
-				<td><input type="submit" name="proses" class="tombol_login" value="Daftar"></td>
-			</tr>
+
+			<?php
+				$i = 0;
+				$query = mysqli_query($db, "SELECT pasien_nama, pasien_bpjs FROM daftar_klinik");
+				while ($m = mysqli_fetch_array($query)) {
+					$i++;
+					?>
+					<tr>
+						<td align="center"><?php echo $i; ?></td>
+						<td><?php echo $m['pasien_nama']; ?></td>
+						<td><?php echo $m['pasien_bpjs']; ?></td>		
+					</tr>
+				<?php } ?>
 		</table>
-	</form>
-	</div>
 	</center>
 </body>
 </html>
